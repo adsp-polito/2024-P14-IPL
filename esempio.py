@@ -7,17 +7,17 @@ model = AutoModelForSequenceClassification.from_pretrained("nlptown/bert-base-mu
 
 
 # Carica il dataset
-dataset = pd.read_csv("Tiny Eco Wonderflow2.csv", sep=";", on_bad_lines="skip")  # Prova con ";" come separatore
+dataset = pd.read_csv("Tiny Eco Wonderflow3.csv", sep=";", on_bad_lines="skip")  # Prova con ";" come separatore
+
+dataset.columns = dataset.columns.str.strip()
 
 # Estrai la colonna 'text'
 texts = dataset['text'].dropna()
+texts = texts[texts.str.strip() != '']
 
 # Rimuovi gli spazi all'inizio e alla fine del testo, e le nuove righe extra
 texts_cleaned = texts.str.replace(r'\s+', ' ', regex=True)  # Rimuove spazi extra (compresi \n e \t)
 texts = texts_cleaned.str.strip()  # Rimuove gli spazi ai bordi (inizio e fine del testo)
-
-# Controlla i primi elementi
-print(texts)
 
 # Funzione per ottenere il sentiment per ogni testo
 def get_sentiment(text):
@@ -39,5 +39,4 @@ def get_sentiment(text):
 # Applica la funzione di sentiment analysis a tutti i testi
 sentiments = texts.apply(get_sentiment)
 
-# Mostra i primi 10 sentimenti
-print(sentiments.head(10))
+print(sentiments.head(20))
