@@ -23,6 +23,30 @@ In today’s digital era, understanding consumer responses to product launches i
 This research addresses the challenge by developing an **AI-driven pipeline** that leverages **Large Language Models (LLMs)** to analyze consumer feedback. The pipeline employs a **multi-level classification framework** to process social media comments and product reviews systematically. It begins with **product relevance classification** to filter out unrelated comments, followed by **topic extraction with sentiment tagging**, **overall sentiment analysis**, and **star rating prediction**. The outputs of these classification tasks are aggregated into **Key Performance Indicators (KPIs)**, which provide actionable insights for marketing teams.
 
 ---
+## Installation
+
+To run the code in this repository, you need to install the required Python libraries. Below are the installation instructions for the libraries used in the project.
+### Libraries
+The following libraries must be installed separately:
+
+- `matplotlib`: For plotting and visualization.
+- `tabulate`: For pretty-printing tabular data.
+- `pandas`: For data manipulation and analysis.
+- `numpy`: For numerical computations.
+- `torch`: PyTorch, for deep learning and model training.
+- `transformers`: Hugging Face Transformers, for working with pre-trained language models.
+- `scikit-learn`: For evaluation metrics like accuracy, precision, recall, and F1-score.
+- `tqdm`: For progress bars during iterations.
+
+### Installation via pip
+You can install all required libraries using the following command:
+
+```bash
+pip install matplotlib tabulate pandas numpy torch transformers scikit-learn tqdm
+```
+
+
+
 
 ## Methodology
 
