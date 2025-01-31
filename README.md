@@ -152,7 +152,16 @@ For more details, refer to the original paper and the following resources:
 You can also find the full report in this repository: [ADSP_P14_Final_Report.pdf](ADSP_P14_Final_Report.pdf).
 
 ---
+## Contributors
 
+This project was developed by the following authors:
+- **[Vincenzo Catalano](https://github.com/VanCoconut)**
+- **Alessio Gioè**
+- **Tommaso Mazzarini**
+
+If you use this code in your work, please include us as contributors by citing this repository and the original authors.
+
+---
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the Apache 2.0 License. See the [LICENSE](LICENSE) file for details.
