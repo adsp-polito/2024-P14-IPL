@@ -180,8 +180,8 @@ You can also find the full report in this repository: [ADSP_P14_Final_Report.pdf
 
 This project was developed by the following authors:
 - **[Vincenzo Catalano](https://github.com/VanCoconut)**
-- **Alessio Gioè**
-- **Tommaso Mazzarini**
+- **[Alessio Gioè](https://github.com/AlesoGio)**
+- **[Tommaso Mazzarini](https://github.com/MazzariniTommaso)**
 
 If you use this code in your work, please include us as contributors by citing this repository and the original authors.
 
