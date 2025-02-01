@@ -1,0 +1,14 @@
+pandas
+numpy
+deep-translator
+scikit-learn
+sentence-transformers
+emoji
+apify-client
+google-api-python-client
+matplotlib
+tabulate
+torch
+transformers
+tqdm
+seaborn
