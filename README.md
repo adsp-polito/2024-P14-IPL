@@ -26,23 +26,30 @@ This research addresses the challenge by developing an **AI-driven pipeline** th
 ## Installation
 
 To run the code in this repository, you need to install the required Python libraries. Below are the installation instructions for the libraries used in the project.
+
 ### Libraries
 The following libraries must be installed separately:
-
-- `matplotlib`: For plotting and visualization.
-- `tabulate`: For pretty-printing tabular data.
 - `pandas`: For data manipulation and analysis.
 - `numpy`: For numerical computations.
+- `deep-translator`: For translation support.
+- `scikit-learn`: For evaluation metrics like accuracy, precision, recall, and F1-score.
+- `sentence-transformers`: For working with sentence embeddings and transformer models.
+- `emoji`: For handling emojis in text.
+- `apify-client`: For interacting with the Apify API.
+- `google-api-python-client`: For accessing Google APIs.
+- `matplotlib`: For plotting and visualization.
+- `tabulate`: For pretty-printing tabular data.
 - `torch`: PyTorch, for deep learning and model training.
 - `transformers`: Hugging Face Transformers, for working with pre-trained language models.
-- `scikit-learn`: For evaluation metrics like accuracy, precision, recall, and F1-score.
 - `tqdm`: For progress bars during iterations.
+- `seaborn`: For statistical data visualization.
 
 ### Installation via pip
+
 You can install all required libraries using the following command:
 
 ```bash
-pip install matplotlib tabulate pandas numpy torch transformers scikit-learn tqdm
+pip install -r requirements.txt
 ```
 
 
